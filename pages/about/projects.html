@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+
+    <title>Static Base HTML</title>
+  </head>
+
+  <body>
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <button type="button" id="sidebarToggle" class="navbar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <a class="navbar-brand" href="/index.html">Colin Wu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="/" 
+        >Home</a>
+        </li>
+        
+    
+        <li class="nav-item ">
+            <a class="nav-link" href="/pages/about.html" 
+        >About</a>
+        </li>
+        
+    
+        <li class="nav-item ">
+            <a class="nav-link" href="/pages/resume/introduction.html" 
+        >Resume</a>
+        </li>
+        
+    
+        <li class="nav-item ">
+            <a class="nav-link" href="/pages/blog.html" 
+        >Blog</a>
+        </li>
+        
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Extras
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/pages/dog.html">My Dog</a>
+            <a class="dropdown-item" href="/pages/photography.html">Photography</a>
+          </div>
+        </li> 
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+      </ul>
+      <!-- <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul> -->
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav><nav id="sidebar">
+    <div id="dismiss">
+<i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </div>
+    <div class="sidebar-header">
+<h4>
+    <a href="
+    
+    
+        
+    
+    
+        
+            /pages/about.html
+        
+    
+    
+        
+    
+    
+        
+    ">
+    About
+</a>
+</h4>
+    </div>
+    <ul class="list-unstyled components">
+
+        <li >
+                    <a href="/pages/about/contact.html">
+                        Contact
+                    </a>
+                </li><li >
+                    <a href="/pages/about/experience.html">
+                        Experiences
+                    </a>
+                </li><li  class="active">
+                    <a href="/pages/about/projects.html">
+                        Projects
+                    </a>
+                </li>
+
+        
+    </ul>
+</nav>
+<div class="overlay">
+</div><div id="content">
+<div class="info-section">
+    <h3>Some Projects!</h3>
+    <img src="/assets/css/ems.png" alt="">
+    <p>
+        Initially being a simple computer science exercise in hash tables, the Employee Management System (EMS) eventually became a functional Java application developed in NetBeans which allows for a hypothetical company to manage employees. Initially, all the EMS did was sort employees into a hash table using their employee numbers and a corresponding hash function. However, the EMS is now quite versatile as it currently allows users to have password protection, add/remove/edit employees, add/remove/edit work locations, save/read information to/from text files, and navigate through their employees using a table and search bar.
+    </p>
+</div>
+<div class="info-section">
+    <img src="/assets/css/personal.png" alt="">
+    <p>The goal of this personal website (which you are currently viewing) was to present myself in a way more detailed than a social media profile or a resume. I intended for this website is one of the main showcases of my web design skills available on the Internet. Using pure HTML, CSS, and JS, I started creating the framework of the website. But as I went along, I added more advanced features such as responsiveness and click-interactions with jQuery and Bootstrap. As well, I learned more advanced technologies such as Jekyll/Liquid and SCSS to efficiently generate the static websites and easily add styling features. With Liquid, I was able to add logic and begin rudimentary interactions with databases (in the form of .yml files). I employed these technologies in this website to make as clear a presentation of myself as possible to the world. While some finishing touches need to be added, this website has proven to be effective in accomplishing this purpose. As well, I have been able to add blog functionalities through Jekyll, so that I am able to add, remove, and manage posts that express my personal opinions. Overall, the site is fully responsive and interactive, with drop-down menus, routing, and screen-size adaptbility. The process of designing and publishing this website has also added to my web design skills and furthered my interest in this technological area.
+</p>
+</div>
+<div class="info-section">
+    <img src="/assets/css/blackjack.png" alt="">
+    <p>
+        Beginning to learn JavaScript, I decided to develop a blackjack card game for the web. Implementing simple AI logic for the dealer, this game is fully functioning with one other player. Structured with simple HTML and styled with basic CSS, the game is founded upon the logic and programming in JavaScript. This game has peaked my interest into AI and machine learning and also led me into the rapid and fast growing reliance on JS as the way of interacting with the web. Since then, I have begun my learnings into React and continued developing my programming skills for the purposes of creating fully-functioning web and mobile apps.
+    </p>
+</div>
+</div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
